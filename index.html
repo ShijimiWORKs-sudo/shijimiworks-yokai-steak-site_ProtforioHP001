@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PLANECT｜株式会社プラネクト — 企画提案型コンサルティング</title>
+<meta name="description" content="株式会社プラネクトは、課題の本質を掴み、まだ世にない企画へ翻訳する企画提案型コンサルティングファームです。事業企画・ブランド戦略・コミュニケーション設計・実行支援まで一気通貫で伴走します。">
+<meta property="og:title" content="PLANECT｜株式会社プラネクト">
+<meta property="og:description" content="まだ見ぬ、勝ち筋を。企画提案型コンサルティング。">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%230f1218'/%3E%3Cpath d='M28 72V28h20a14 14 0 0 1 0 28H40v16z' fill='%23ff5b34'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- ===== Preloader ===== -->
+<div class="preloader" id="preloader">
+  <div class="preloader__inner">
+    <div class="preloader__logo">PLANECT</div>
+    <div class="preloader__bar"><span></span></div>
+    <div class="preloader__num"><span id="loadNum">0</span>%</div>
+  </div>
+</div>
+
+<!-- ===== Custom cursor ===== -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- ===== Header ===== -->
+<header class="header" id="header">
+  <a href="#top" class="brand" data-hover>
+    <span class="brand__mark">P</span>
+    <span class="brand__name">PLANECT</span>
+  </a>
+  <nav class="nav" id="nav">
+    <a href="#about" data-hover><em>01</em>About</a>
+    <a href="#services" data-hover><em>02</em>Services</a>
+    <a href="#approach" data-hover><em>03</em>Approach</a>
+    <a href="#works" data-hover><em>04</em>Works</a>
+    <a href="#team" data-hover><em>05</em>Team</a>
+    <a href="#contact" class="nav__cta" data-hover>Contact</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="menu"><span></span><span></span></button>
+</header>
+
+<!-- ===== Mobile menu ===== -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#about"><em>01</em>About</a></li>
+    <li><a href="#services"><em>02</em>Services</a></li>
+    <li><a href="#approach"><em>03</em>Approach</a></li>
+    <li><a href="#works"><em>04</em>Works</a></li>
+    <li><a href="#team"><em>05</em>Team</a></li>
+    <li><a href="#news"><em>06</em>News</a></li>
+    <li><a href="#faq"><em>07</em>FAQ</a></li>
+    <li><a href="#contact"><em>08</em>Contact</a></li>
+  </ul>
+</div>
+
+<main id="top">
+
+  <!-- ===== Hero ===== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg"></div>
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <p class="hero__eyebrow"><span class="dot"></span>企画提案型コンサルティング / Strategic Planning Studio</p>
+      <h1 class="hero__title">
+        <span class="line"><span>まだ見ぬ、</span></span>
+        <span class="line"><span>勝ち筋を。</span></span>
+      </h1>
+      <p class="hero__lead">
+        課題の“本質”をつかみ、まだ世にない企画へ翻訳する。<br>
+        戦略から実行まで、私たちは「答え」ではなく「勝ち筋」を設計します。
+      </p>
+      <div class="hero__actions">
+        <a href="#works" class="btn btn--primary" data-hover>実績を見る<span class="btn__arrow">→</span></a>
+        <a href="#contact" class="btn btn--ghost" data-hover>相談する</a>
+      </div>
+    </div>
+    <div class="hero__scroll"><span>SCROLL</span><i></i></div>
+    <div class="hero__side hero__side--l">EST. 2016 — TOKYO</div>
+    <div class="hero__side hero__side--r">PLANNING × PROPOSAL × DRIVE</div>
+  </section>
+
+  <!-- ===== Marquee ===== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>事業企画</span><i>✳</i><span>ブランド戦略</span><i>✳</i><span>コミュニケーション設計</span><i>✳</i><span>新規事業</span><i>✳</i><span>実行伴走</span><i>✳</i>
+      <span>事業企画</span><i>✳</i><span>ブランド戦略</span><i>✳</i><span>コミュニケーション設計</span><i>✳</i><span>新規事業</span><i>✳</i><span>実行伴走</span><i>✳</i>
+    </div>
+  </div>
+
+  <!-- ===== About ===== -->
+  <section class="about section" id="about">
+    <div class="section__head">
+      <span class="section__no">01</span>
+      <span class="section__label">About</span>
+    </div>
+    <div class="about__grid">
+      <div class="about__lead reveal">
+        <h2 class="about__title">
+          企画は、<br><span class="hl">課題を物語に変える</span>仕事だ。
+        </h2>
+      </div>
+      <div class="about__body reveal">
+        <p>
+          市場調査の数字も、経営者の直感も、現場の違和感も。ばらばらの点をつなぎ、
+          誰もが「それだ」と膝を打つ一本の筋にする。それが私たちの考える企画提案です。
+        </p>
+        <p>
+          プラネクトは、コンサルティングの論理性とクリエイティブの飛躍を同じテーブルに乗せます。
+          戦略を絵に描いた餅で終わらせず、実行の現場まで伴走することで、
+          「提案書の中だけで正しい企画」を作りません。
+        </p>
+        <ul class="about__creed">
+          <li><b>01</b>正しさより、動くこと。</li>
+          <li><b>02</b>借り物の言葉を、使わない。</li>
+          <li><b>03</b>提案は、渡した瞬間から相手のもの。</li>
+        </ul>
+      </div>
+    </div>
+    <div class="stats reveal">
+      <div class="stat"><span class="stat__num" data-count="120">0</span><span class="stat__plus">+</span><span class="stat__cap">プロジェクト実績</span></div>
+      <div class="stat"><span class="stat__num" data-count="89">0</span><span class="stat__plus">%</span><span class="stat__cap">継続・リピート率</span></div>
+      <div class="stat"><span class="stat__num" data-count="14">0</span><span class="stat__cap">支援業界の広さ</span></div>
+      <div class="stat"><span class="stat__num" data-count="2016">0</span><span class="stat__cap">設立年</span></div>
+    </div>
+  </section>
+
+  <!-- ===== Services ===== -->
+  <section class="services section" id="services">
+    <div class="section__head">
+      <span class="section__no">02</span>
+      <span class="section__label">Services</span>
+    </div>
+    <h2 class="services__title reveal">4つの領域で、<br>“企画から実行”までを一気通貫。</h2>
+    <div class="services__list">
+      <article class="svc reveal" data-hover>
+        <span class="svc__no">S/01</span>
+        <h3 class="svc__name">事業企画<em>Business Planning</em></h3>
+        <p class="svc__desc">新規事業・新サービスのコンセプト設計から収益モデル、ロードマップまで。市場と自社の交点に、勝てる事業の輪郭を描きます。</p>
+        <ul class="svc__tags"><li>新規事業</li><li>事業計画</li><li>収益設計</li></ul>
+      </article>
+      <article class="svc reveal" data-hover>
+        <span class="svc__no">S/02</span>
+        <h3 class="svc__name">ブランド戦略<em>Brand Strategy</em></h3>
+        <p class="svc__desc">ブランドの再定義とパーパス設計。言葉・世界観・体験を一本の物語に束ね、選ばれ続ける理由を構造からつくります。</p>
+        <ul class="svc__tags"><li>リブランディング</li><li>パーパス</li><li>ネーミング</li></ul>
+      </article>
+      <article class="svc reveal" data-hover>
+        <span class="svc__no">S/03</span>
+        <h3 class="svc__name">コミュニケーション設計<em>Communication Design</em></h3>
+        <p class="svc__desc">キャンペーン・PR・体験施策の企画。届けたい相手が思わず動く「仕掛け」を、メディアの向こう側から逆算して設計します。</p>
+        <ul class="svc__tags"><li>キャンペーン</li><li>PR</li><li>体験設計</li></ul>
+      </article>
+      <article class="svc reveal" data-hover>
+        <span class="svc__no">S/04</span>
+        <h3 class="svc__name">実行・伴走支援<em>Execution Support</em></h3>
+        <p class="svc__desc">企画を現場で動かすための実行支援。プロジェクトマネジメントとチームビルディングで、提案を「成果」に変えるまで併走します。</p>
+        <ul class="svc__tags"><li>PMO</li><li>実行支援</li><li>内製化</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Approach ===== -->
+  <section class="approach section" id="approach">
+    <div class="section__head">
+      <span class="section__no">03</span>
+      <span class="section__label">Approach</span>
+    </div>
+    <h2 class="approach__title reveal">「聞く」から「動かす」まで、<br>5つのステップ。</h2>
+    <div class="steps">
+      <div class="step reveal">
+        <span class="step__no">01</span>
+        <h3 class="step__name">Listen<em>傾聴・現状把握</em></h3>
+        <p>経営者にも現場にも深く潜り、語られない前提や違和感まで拾い上げます。</p>
+      </div>
+      <div class="step reveal">
+        <span class="step__no">02</span>
+        <h3 class="step__name">Insight<em>本質の発見</em></h3>
+        <p>集めた点を構造化し、本当に解くべき課題（イシュー）を一つに絞り込みます。</p>
+      </div>
+      <div class="step reveal">
+        <span class="step__no">03</span>
+        <h3 class="step__name">Idea<em>企画立案</em></h3>
+        <p>論理の一歩先へ跳ぶ。実現性と意外性を両立する企画の核をつくります。</p>
+      </div>
+      <div class="step reveal">
+        <span class="step__no">04</span>
+        <h3 class="step__name">Proposal<em>提案・合意形成</em></h3>
+        <p>意思決定者が動きたくなる提案へ。物語と数字の両輪で合意を設計します。</p>
+      </div>
+      <div class="step reveal">
+        <span class="step__no">05</span>
+        <h3 class="step__name">Drive<em>実行・伴走</em></h3>
+        <p>提案書で終わらせない。現場に入り、成果が出るまで伴走し続けます。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Works ===== -->
+  <section class="works section" id="works">
+    <div class="section__head">
+      <span class="section__no">04</span>
+      <span class="section__label">Works</span>
+    </div>
+    <div class="works__intro reveal">
+      <h2 class="works__title">Selected Works</h2>
+      <p>業界も規模も異なる企画提案の一部を紹介します。<small>※ 掲載はイメージを含むポートフォリオサンプルです。</small></p>
+    </div>
+    <div class="works__grid">
+      <article class="work reveal" data-hover>
+        <div class="work__thumb"><img loading="lazy" src="https://picsum.photos/seed/planect-food/800/600" alt=""><span class="work__cat">D2C / Branding</span></div>
+        <div class="work__meta">
+          <h3>地方食品メーカーの<br>D2Cブランド立ち上げ</h3>
+          <p>売上の8割を卸に依存していた老舗に、直販ブランドと物語を新設。初年度で自社EC比率を32%へ。</p>
+          <span class="work__year">2024</span>
+        </div>
+      </article>
+      <article class="work reveal" data-hover>
+        <div class="work__thumb"><img loading="lazy" src="https://picsum.photos/seed/planect-ryokan/800/600" alt=""><span class="work__cat">Rebranding</span></div>
+        <div class="work__meta">
+          <h3>創業120年、<br>老舗旅館のリブランディング</h3>
+          <p>“伝統”を守るのではなく翻訳する。客層を刷新し、平均単価1.6倍・稼働率+18ptを実現。</p>
+          <span class="work__year">2023</span>
+        </div>
+      </article>
+      <article class="work reveal" data-hover>
+        <div class="work__thumb"><img loading="lazy" src="https://picsum.photos/seed/planect-saas/800/600" alt=""><span class="work__cat">New Business</span></div>
+        <div class="work__meta">
+          <h3>BtoB SaaS企業の<br>新規事業企画</h3>
+          <p>既存アセットの棚卸しから3つの事業仮説を提案。1つを半年でPMF検証まで到達させました。</p>
+          <span class="work__year">2024</span>
+        </div>
+      </article>
+      <article class="work reveal" data-hover>
+        <div class="work__thumb"><img loading="lazy" src="https://picsum.photos/seed/planect-city/800/600" alt=""><span class="work__cat">City Promotion</span></div>
+        <div class="work__meta">
+          <h3>自治体の<br>シティプロモーション</h3>
+          <p>移住施策を“観光”ではなく“関係人口”起点で再設計。関連イベント来場者を前年比2.4倍に。</p>
+          <span class="work__year">2022</span>
+        </div>
+      </article>
+      <article class="work reveal" data-hover>
+        <div class="work__thumb"><img loading="lazy" src="https://picsum.photos/seed/planect-apparel/800/600" alt=""><span class="work__cat">Experience</span></div>
+        <div class="work__meta">
+          <h3>アパレルの<br>体験型ポップアップ企画</h3>
+          <p>“売らない店舗”をコンセプトに体験を設計。SNS換算リーチ480万、指名検索3.1倍。</p>
+          <span class="work__year">2023</span>
+        </div>
+      </article>
+      <article class="work reveal" data-hover>
+        <div class="work__thumb"><img loading="lazy" src="https://picsum.photos/seed/planect-medical/800/600" alt=""><span class="work__cat">Pitch Design</span></div>
+        <div class="work__meta">
+          <h3>医療スタートアップの<br>資金調達ピッチ設計</h3>
+          <p>技術の凄さではなく“社会が変わる物語”へ再構成。シリーズAで目標超過の調達を達成。</p>
+          <span class="work__year">2025</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Team ===== -->
+  <section class="team section" id="team">
+    <div class="section__head">
+      <span class="section__no">05</span>
+      <span class="section__label">Team</span>
+    </div>
+    <h2 class="team__title reveal">企画は、人でできている。</h2>
+    <div class="team__grid">
+      <article class="member reveal" data-hover>
+        <div class="member__ava" data-mono style="--c1:#ff5b34;--c2:#ffb199;"><span>RS</span></div>
+        <h3 class="member__name">佐倉 玲<em>Rei Sakura</em></h3>
+        <p class="member__role">代表取締役 / 戦略ディレクター</p>
+        <p class="member__bio">外資系戦略ファームを経て2016年にプラネクトを創業。“正しさより、動くこと”が口癖。</p>
+      </article>
+      <article class="member reveal" data-hover>
+        <div class="member__ava" data-mono style="--c1:#3b82f6;--c2:#93c5fd;"><span>YA</span></div>
+        <h3 class="member__name">東 悠介<em>Yusuke Azuma</em></h3>
+        <p class="member__role">企画ディレクター</p>
+        <p class="member__bio">広告代理店出身。数字と情緒の両方を握れる企画屋。年間50本の提案を書く。</p>
+      </article>
+      <article class="member reveal" data-hover>
+        <div class="member__ava" data-mono style="--c1:#10b981;--c2:#6ee7b7;"><span>KM</span></div>
+        <h3 class="member__name">三宅 かな<em>Kana Miyake</em></h3>
+        <p class="member__role">クリエイティブディレクター</p>
+        <p class="member__bio">ブランドの“世界観”を言葉とビジュアルに翻訳する担当。元編集者。</p>
+      </article>
+      <article class="member reveal" data-hover>
+        <div class="member__ava" data-mono style="--c1:#a855f7;--c2:#d8b4fe;"><span>DK</span></div>
+        <h3 class="member__name">北村 大地<em>Daichi Kitamura</em></h3>
+        <p class="member__role">リサーチャー / データストラテジスト</p>
+        <p class="member__bio">定量・定性の両面から“本質”を掘る。企画の土台となる問いを立てる人。</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== News ===== -->
+  <section class="news section" id="news">
+    <div class="section__head">
+      <span class="section__no">06</span>
+      <span class="section__label">News</span>
+    </div>
+    <div class="news__list">
+      <a class="news__item reveal" href="#" data-hover>
+        <span class="news__date">2026.06.18</span>
+        <span class="news__tag">Release</span>
+        <span class="news__txt">企画提案の型を体系化した自社メソッド「PLANECT METHOD 2.0」を公開しました。</span>
+        <span class="news__arrow">→</span>
+      </a>
+      <a class="news__item reveal" href="#" data-hover>
+        <span class="news__date">2026.04.02</span>
+        <span class="news__tag">Award</span>
+        <span class="news__txt">支援した地方食品D2Cブランドが、グッドデザイン賞（ビジネスモデル部門）を受賞。</span>
+        <span class="news__arrow">→</span>
+      </a>
+      <a class="news__item reveal" href="#" data-hover>
+        <span class="news__date">2026.01.15</span>
+        <span class="news__tag">Info</span>
+        <span class="news__txt">組織拡大に伴い、企画ディレクター・リサーチャーの採用を開始しました。</span>
+        <span class="news__arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq section" id="faq">
+    <div class="section__head">
+      <span class="section__no">07</span>
+      <span class="section__label">FAQ</span>
+    </div>
+    <h2 class="faq__title reveal">よくあるご質問</h2>
+    <div class="faq__list">
+      <div class="qa reveal">
+        <button class="qa__q" data-hover><span>Q</span>依頼の相場感を教えてください。<i></i></button>
+        <div class="qa__a"><p>プロジェクトの範囲によりますが、単発の企画提案で50万円〜、伴走型の顧問契約で月額30万円〜が目安です。まずは課題の壁打ちから無料でご相談いただけます。</p></div>
+      </div>
+      <div class="qa reveal">
+        <button class="qa__q" data-hover><span>Q</span>小さな会社・個人でも依頼できますか？<i></i></button>
+        <div class="qa__a"><p>もちろんです。むしろ意思決定が速いフェーズこそ企画の効果が出やすいと考えています。規模より“やりきる意志”があるかを大切にしています。</p></div>
+      </div>
+      <div class="qa reveal">
+        <button class="qa__q" data-hover><span>Q</span>提案だけでなく実行も任せられますか？<i></i></button>
+        <div class="qa__a"><p>はい。私たちの強みは“実行まで併走する”ことにあります。PMOとして現場に入り、成果が出るまで伴走します。内製化の支援も可能です。</p></div>
+      </div>
+      <div class="qa reveal">
+        <button class="qa__q" data-hover><span>Q</span>どのくらいの期間がかかりますか？<i></i></button>
+        <div class="qa__a"><p>企画提案フェーズは3〜6週間が一般的です。実行支援を含む場合は3ヶ月〜1年ほど、目的に応じて柔軟に設計します。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section class="contact section" id="contact">
+    <div class="contact__inner">
+      <p class="contact__eyebrow reveal">Contact</p>
+      <h2 class="contact__title reveal">その課題、<br><span class="hl">まだ勝ち筋があります。</span></h2>
+      <p class="contact__lead reveal">構想段階のもやもやでも大丈夫。まずは30分の壁打ちから始めましょう。</p>
+      <form class="contact__form reveal" id="contactForm" novalidate>
+        <div class="field"><label>お名前 <span>*</span></label><input type="text" name="name" placeholder="山田 太郎" required></div>
+        <div class="field"><label>会社名</label><input type="text" name="company" placeholder="株式会社サンプル"></div>
+        <div class="field"><label>メールアドレス <span>*</span></label><input type="email" name="email" placeholder="you@example.com" required></div>
+        <div class="field field--full"><label>ご相談内容 <span>*</span></label><textarea name="message" rows="4" placeholder="いま抱えている課題や、やりたいことを自由にお書きください。" required></textarea></div>
+        <button type="submit" class="btn btn--primary btn--lg" data-hover>送信する<span class="btn__arrow">→</span></button>
+        <p class="contact__note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="footer__top">
+    <div class="footer__brand">
+      <div class="footer__logo">PLANECT</div>
+      <p>まだ見ぬ、勝ち筋を。</p>
+    </div>
+    <div class="footer__cols">
+      <div class="footer__col">
+        <h4>Sitemap</h4>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#approach">Approach</a>
+        <a href="#works">Works</a>
+        <a href="#team">Team</a>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <a href="#news">News</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer__col footer__col--info">
+        <h4>Info</h4>
+        <p>株式会社プラネクト<br>〒150-0001 東京都渋谷区神宮前0-0-0<br>PLANECT Bldg. 5F</p>
+        <p>hello@planect.example</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>© 2016–2026 PLANECT Inc. — This is a fictional portfolio site.</p>
+    <p class="footer__credit">Design & Build with GSAP + Lenis</p>
+  </div>
+</footer>
+
+<!-- ===== Scripts ===== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
