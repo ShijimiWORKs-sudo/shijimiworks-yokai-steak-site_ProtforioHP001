@@ -13,7 +13,8 @@
 - カスタムカーソル / プリローダー / 無限マーキー / フルスクリーンモバイルメニュー
 - レスポンシブ対応（デスクトップ〜モバイル）
 - `prefers-reduced-motion` 配慮
-- 画像は著作権フリー（[Lorem Picsum](https://picsum.photos/) = Unsplashソース）
+- **アニメ／マンガ調のイラスト**を採用（Works のキービジュアル・Team のポートレート・ヒーローの Key Visual）
+- 画像は著作権フリー（CC BY 4.0）— David Revoy 氏「[Pepper&Carrot](https://www.peppercarrot.com/)」を使用。クレジットは [CREDITS.md](CREDITS.md) を参照
 
 ## セクション構成
 
@@ -56,6 +57,8 @@ planect/
 ├─ index.html        # 全コンテンツ・マークアップ
 ├─ css/style.css     # デザイン・レスポンシブ
 ├─ js/main.js        # アニメーション・インタラクション
+├─ assets/img/       # イラスト（CC BY 4.0 / Pepper&Carrot）
+├─ CREDITS.md        # 画像・フォント・ライブラリのクレジット
 ├─ README.md
 └─ .gitignore
 ```
